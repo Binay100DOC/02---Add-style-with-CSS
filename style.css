@@ -1,0 +1,49 @@
+#highest-reward{
+    text-align: center;
+}
+#highest-reward-photo{
+    opacity: 70%;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+#reward-info{
+    position: absolute;
+    z-index:1;
+    color:black;
+    font-size: 20px;
+    background-color: #dff0e3;
+    height: 80px;
+    width: 120px;
+    border-radius: 15px;
+    left: 45%;
+    bottom:80%;
+    opacity:60%;
+    font-weight: bolder;
+}
+#thousandgolds{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gandalf-text{
+    position:absolute;
+    z-index: 1;
+    color:white;
+    font-size: 40px;
+    left:45%;
+    bottom:15%;
+}
+#highest-reward-photo:hover{
+    opacity:100%;
+}
+#highest-reward-photo:hover #reward-info{
+    display:none;
+}
+#highest-reward-photo:hover .gandalf-text{
+    position:absolute;
+    z-index: 1;
+    color:white;
+    font-size: 30px;
+    left:47%;
+    bottom:8%;
+} 
