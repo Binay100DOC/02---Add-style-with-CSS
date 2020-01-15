@@ -2,6 +2,8 @@
     text-align: center;
 }
 #highest-reward-photo{
+    height:400px;
+    width:400px;
     opacity: 70%;
     position: relative;
     z-index: 0;
